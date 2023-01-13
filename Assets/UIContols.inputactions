@@ -1,0 +1,34 @@
+{
+    "name": "UIContols",
+    "maps": [
+        {
+            "name": "Oculus",
+            "id": "0a267369-fb3a-460c-b980-805a1fae8e16",
+            "actions": [
+                {
+                    "name": "Home",
+                    "type": "Button",
+                    "id": "ec01c52b-0117-49ed-b3e1-90ea0de4bced",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3868124d-1c35-4ce3-80b6-2c416358bbdb",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Home",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
