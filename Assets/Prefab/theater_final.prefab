@@ -1744,7 +1744,7 @@ GameObject:
   - component: {fileID: 7817927201969361781}
   - component: {fileID: 7098190031795750327}
   - component: {fileID: 5053624403303442257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lamp_009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5271,7 +5271,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -7520,7 +7520,7 @@ GameObject:
   - component: {fileID: 7834195324884066579}
   - component: {fileID: 351476541660127175}
   - component: {fileID: 6257542889309634518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lamp2_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9113,7 +9113,7 @@ GameObject:
   - component: {fileID: 2084609438568550520}
   - component: {fileID: 5683489073275850335}
   - component: {fileID: 1044037702201711398}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lamp2_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10883,7 +10883,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8045688721979969363}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.66, y: 3.86, z: -3.25}
+  m_LocalPosition: {x: 0.01, y: 3.86, z: -5.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10902,13 +10902,13 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.9472873, g: 1, b: 0, a: 1}
-  m_Intensity: 0.5
-  m_Range: 29.4
+  m_Intensity: 1.1
+  m_Range: 16.46
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -11182,7 +11182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8183233706598765964}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.56, z: 8.53}
+  m_LocalPosition: {x: 0, y: 3.56, z: 7.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11207,7 +11207,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -12353,7 +12353,7 @@ GameObject:
   - component: {fileID: 1890112989894993135}
   - component: {fileID: 1461779705019409266}
   - component: {fileID: 1070629742570129750}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lamp2_007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
