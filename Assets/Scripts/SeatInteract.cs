@@ -6,13 +6,15 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SeatInteract : MonoBehaviour
 {
     public GameObject player;
-    
+    public GameObject _on;
+
     private sitSeat _seat;
     
     // Start is called before the first frame update
     void Start()
     {
         _seat = player.GetComponent<sitSeat>();
+        _on.SetActive(false);
     }
 
     public void move2seat()
@@ -25,6 +27,7 @@ public class SeatInteract : MonoBehaviour
     {
         Debug.Log("Activated");
         _seat.sit(transform.position + new Vector3(0.0f, -0.1f, 0.0f));
+        _on.SetActive(true);
         //Disable other moving controlls
     }
 }
