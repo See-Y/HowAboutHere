@@ -1771,12 +1771,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 
+      m_Id: 2dca35e8-8340-4a81-ae85-f41684b8c668
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 9bbe5a31-4564-4b02-a611-8e80ae061e54
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -1799,12 +1799,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 
+      m_Id: 8a749484-5a38-40f5-a860-9f73c6dabfa0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 
+        m_Id: 08fb3f12-5f8b-4ca7-8348-d344bf115d59
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -1938,7 +1938,7 @@ MonoBehaviour:
   m_Camera: {fileID: 1411211754}
   m_OriginBaseGameObject: {fileID: 1489285050}
   m_CameraFloorOffsetObject: {fileID: 934533307}
-  m_RequestedTrackingOriginMode: 0
+  m_RequestedTrackingOriginMode: 2
   m_CameraYOffset: 1.1176
 --- !u!4 &1489285053
 Transform:
