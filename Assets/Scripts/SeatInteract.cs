@@ -15,7 +15,7 @@ public class SeatInteract : MonoBehaviour
 
     public void move2seat()
     {
-        player.transform.position = transform.position + new Vector3(0.0f,0.0f,0.3f);
+        player.transform.position = transform.position + new Vector3(0.0f,0.2f,0.2f);
         
     }
 
