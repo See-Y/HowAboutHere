@@ -31,7 +31,7 @@ public class ReturnHome : MonoBehaviour
     {
         if(!context.performed)
         {
-            Debug.Log("Home Activated2222");
+            
             transform.position = init_position;
             transform.rotation = init_rotation;
         }
