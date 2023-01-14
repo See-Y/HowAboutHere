@@ -12,8 +12,6 @@ public class SitUI : MonoBehaviour
     public Canvas _reviews;
     public Canvas _snacks;
 
-    public AudioSource cheers;
-
     private bool on;
     // Start is called before the first frame update
     void Start()
@@ -42,7 +40,6 @@ public class SitUI : MonoBehaviour
     {
         _reviews.enabled = false;
         _snacks.enabled = true;
-        cheers.Play();
     }
 
     public void On()
