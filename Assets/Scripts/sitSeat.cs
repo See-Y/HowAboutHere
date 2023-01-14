@@ -25,7 +25,7 @@ public class sitSeat : MonoBehaviour
         _rigidbody.isKinematic = true;
         _rigidbody.detectCollisions = false;
         transform.position = position;
-        transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        transform.rotation = Quaternion.Euler(0.0f, 180.0f, 0.0f);
         _left.enabled = false;
         _right.enabled = false;
         voka.Play();

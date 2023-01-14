@@ -19,14 +19,14 @@ public class SeatInteract : MonoBehaviour
 
     public void move2seat()
     {
-        player.transform.position = transform.position + new Vector3(0.0f,0.2f,0.2f);
+        player.transform.position = transform.position + new Vector3(0.0f,0.2f,0.1f);
         
     }
 
     public void sit2seat()
     {
         Debug.Log("Activated");
-        _seat.sit(transform.position + new Vector3(0.0f, -0.1f, 0.0f));
+        _seat.sit(transform.position + new Vector3(0.0f, -0.1f, 0.2f));
         on.SetActive(true);
         //Disable other moving controlls
     }
