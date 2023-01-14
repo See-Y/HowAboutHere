@@ -6,7 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class SeatInteract : MonoBehaviour
 {
     public GameObject player;
-    public GameObject _on;
+    public GameObject on;
 
     private sitSeat _seat;
     
@@ -14,7 +14,7 @@ public class SeatInteract : MonoBehaviour
     void Start()
     {
         _seat = player.GetComponent<sitSeat>();
-        _on.SetActive(false);
+        on.SetActive(false);
     }
 
     public void move2seat()
