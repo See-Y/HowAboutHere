@@ -8,6 +8,7 @@ public class ReturnHome : MonoBehaviour
 {
     public InputActionReference HomeReference = null;
     public Canvas menu;
+    public AudioSource ret;
     private Vector3 init_position;
 
     private Quaternion init_rotation;
@@ -37,6 +38,7 @@ public class ReturnHome : MonoBehaviour
             
             transform.position = init_position;
             transform.rotation = init_rotation;
+            ret.Play();
         }
     }
 

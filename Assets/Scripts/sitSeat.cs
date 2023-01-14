@@ -9,6 +9,8 @@ public class sitSeat : MonoBehaviour
     public ActionBasedContinuousTurnProvider _right;
     private Collider _collider = null;
     private Rigidbody _rigidbody = null;
+
+    public AudioSource voka;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,7 @@ public class sitSeat : MonoBehaviour
         transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
         _left.enabled = false;
         _right.enabled = false;
+        voka.Play();
     }
 
     public void getup()
